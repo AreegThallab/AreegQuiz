@@ -33,7 +33,7 @@ Test yourself with this interactive quiz covering the main topics we learned thr
 
 Open the quiz and test your Week 5 knowledge!
 
-👉 **[Start Quiz](index.html)**
+👉 **[Start Quiz](https://areegquiz.onrender.com/)**
 
 ---
 
