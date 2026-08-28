@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 5 Web Development Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="quiz-app">
+    <section class="start-screen" id="start-screen">
+      <span class="badge">Tuwaiq Python Bootcamp</span>
+      <h1>Week 5 Web Development Quiz</h1>
+      <p>Test your knowledge across Networking, HTTP, HTML, CSS, Responsive Design, Transitions, Transforms, and Animations.</p>
+      <div class="quiz-info">
+        <div><strong>20</strong><span>Questions</span></div>
+        <div><strong>5</strong><span>Days</span></div>
+        <div><strong>100%</strong><span>Week 5</span></div>
+      </div>
+      <button id="start-btn" class="primary-btn">Start Quiz</button>
+    </section>
+
+    <section class="quiz-screen hidden" id="quiz-screen">
+      <div class="top-bar">
+        <span id="question-number">Question 1 of 20</span>
+        <span id="score-live">Score: 0</span>
+      </div>
+      <div class="progress-track" aria-label="Quiz progress"><div class="progress-bar" id="progress-bar"></div></div>
+      <div class="topic-tag" id="topic-tag">Day 1</div>
+      <h2 id="question-text"></h2>
+      <pre class="code-box hidden" id="code-box"><code id="code-text"></code></pre>
+      <div class="answers" id="answers"></div>
+      <div class="feedback hidden" id="feedback" aria-live="polite"></div>
+      <div class="quiz-actions"><button id="next-btn" class="primary-btn hidden">Next Question</button></div>
+    </section>
+
+    <section class="result-screen hidden" id="result-screen">
+      <div class="result-icon" id="result-icon">🏆</div>
+      <h2>Week 5 Quiz Complete!</h2>
+      <div class="score-circle"><strong id="final-score">0/20</strong><span id="final-percent">0%</span></div>
+      <h3 id="result-title"></h3>
+      <p id="result-message"></p>
+      <div class="result-breakdown" id="result-breakdown"></div>
+      <button id="restart-btn" class="primary-btn">Try Again</button>
+    </section>
+  </main>
+</body>
+</html>
